@@ -1,0 +1,175 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+/* HEADER* */
+.site-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: #000000;
+  list-style: none;
+  text-decoration: none;
+}
+.site-logo-web {
+  color: #2196f3;
+}
+
+.site-nav-link,
+li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #212121;
+  list-style: none;
+  text-decoration: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus,
+.site-nav-link::before {
+  color: #2196f3;
+}
+
+.site-address-link {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #757575;
+}
+.site-address-link:hover,
+.site-address-link:focus,
+.site-address-link::before {
+  color: #2196f3;
+}
+
+/* FOOTER */
+.page-footer {
+  background: #2f303a;
+}
+
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+}
+.logo-footer-web {
+  color: #2196f3;
+}
+
+.address-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 60%);
+  text-decoration: none;
+}
+
+/* MAIN-STUDIA */
+.site-title-section {
+  background: #2f303a;
+}
+
+.site-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.site-title-button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.specifics-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.specifics-text {
+  line-height: 1.71;
+  color: #757575;
+}
+
+.about-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.team-person {
+  background-color: #ffffff;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: #757575;
+}
+
+/* PORTFOLIO */
+.filter-button:hover,
+.filter-button:focus.filter-button::before {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.filter-button {
+  border: none;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.filter-portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.filter-portfolio-type {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
