@@ -18,7 +18,9 @@ body {
   font-size: 14px;
   background-color: #ffffff;
 }
-
+/* .container {
+  width: 1200px;
+} */
 .body-studia {
   box-sizing: border-box;
   width: 1600px;
@@ -156,8 +158,6 @@ body {
 
 /* MAIN-STUDIA */
 .site-title-section {
-  display: flex;
-  flex-direction: column;
   height: 600px;
   background: #2f303a;
 }
@@ -185,6 +185,7 @@ body {
   width: 200px;
   height: 50px;
   text-align: center;
+  border-radius: 4px;
   margin: 30px 700px 200px 700px;
 }
 
@@ -283,6 +284,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
 
   width: 611px;
   height: 54px;
@@ -312,13 +314,19 @@ body {
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
+.filter-portfolio:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
 .filter-portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin: 20px 24px 0px 24px;
 }
 .filter-portfolio-type {
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
+  margin: 4px 24px 20px 24px;
 }
