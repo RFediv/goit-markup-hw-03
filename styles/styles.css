@@ -41,6 +41,7 @@ body {
 .page-header {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 .site-logo {
   font-family: Raleway, sans-serif;
@@ -110,8 +111,7 @@ body {
 .page-footer {
   height: 252px;
   background: #2f303a;
-  padding-left: 215px;
-  padding-top: 60px;
+  padding: 60px 15px 60px 200px;
 }
 
 .logo-footer {
@@ -144,6 +144,10 @@ body {
   color: rgba(255, 255, 255, 60%);
   text-decoration: none;
 }
+.footer-link:nth-child(-n + 2) {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
 
 /* MAIN-STUDIA */
 .site-title-section {
@@ -158,8 +162,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 
-  width: 696px;
-  height: 120px;
   margin: 106px 452px 0px 452px;
   text-align: center;
 }
@@ -180,15 +182,11 @@ body {
 
 .specifics {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  width: 1170px;
-  height: 101px;
   margin: 0px 215px 0px 215px;
 }
-.specifics-box {
-  width: 270px;
-  height: 101px;
+.specifics-box:nth-child(-n + 3) {
+  margin-right: 30px;
 }
 .specifics-item {
   font-weight: 700;
@@ -200,8 +198,6 @@ body {
 .specifics-text {
   line-height: 1.71;
   color: #757575;
-  width: 270px;
-  height: 101px;
 }
 
 .about-box {
@@ -243,14 +239,18 @@ body {
 }
 .team-person {
   background-color: #ffffff;
-  width: 270px;
-  height: 368px;
   text-align: center;
 }
+.team-person:nth-child(-n + 3) {
+  margin-right: 30px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
@@ -259,12 +259,9 @@ body {
 }
 
 /* PORTFOLIO */
-.container-main {
-  height: 1548px;
-}
 .filter {
   width: 1170px;
-  height: 1360px;
+  height: 1548px;
   margin: 0px 215px 0px 215px;
 }
 .filter-button:hover,
