@@ -76,8 +76,7 @@ body {
 }
 .site-nav-link:hover,
 .site-nav-link:focus,
-.site-nav-link::before,
-.site-nav-link::cue {
+.site-nav-link:active {
   color: #2196f3;
 }
 .site-address-link1,
