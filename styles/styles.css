@@ -20,6 +20,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   background-color: #ffffff;
+  margin: auto;
 }
 
 .body-studia {
@@ -301,6 +302,7 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+  border-image-slice: fill;
   margin-bottom: 30px;
 }
 .filter-portfolio:nth-last-child(-n + 3) {
