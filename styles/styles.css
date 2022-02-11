@@ -305,9 +305,8 @@ body {
 
 .portfolio-bottom-box {
   height: 110px;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
+  border-top: none;
   padding-top: 20px;
 }
 .filter-portfolio:nth-last-child(-n + 3) {
