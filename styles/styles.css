@@ -26,20 +26,6 @@ ul {
   --black-color: #000000;
   --box-line: #eeeeee;
   --team-color: #f5f4fa;
-  --font-weight-900: 900;
-  --font-weight-700: 700;
-  --font-weight-500: 500;
-  --font-size-16: 16px;
-  --font-size-18: 18px;
-  --font-size-26: 26px;
-  --font-size-36: 36px;
-  --font-size-44: 44px;
-  --line-height-1-17: 1.17;
-  --line-height-1-36: 1.36;
-  --line-height-1-63: 1.63;
-  --line-height-1-71: 1.71;
-  --line-height-1-88: 1.88;
-  --line-height-2: 2;
 }
 .container {
   width: 1200px;
@@ -67,9 +53,9 @@ ul {
 }
 .site-logo {
   font-family: var(--logo-font-family);
-  font-weight: var(--font-weight-700);
-  font-size: var(--font-size-26);
-  line-height: var(--line-height-1-17);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
   color: var(--black-color);
   text-decoration: none;
   margin-right: 93px;
@@ -88,8 +74,8 @@ ul {
 .site-nav-link {
   display: block;
   font-size: var(--brand-font-size);
-  font-weight: var(--font-weight-500);
-  line-height: var(--line-height-1-17);
+  font-weight: 500;
+  line-height: 1.17;
   color: var(--brand-color);
   text-decoration: none;
   margin-right: 50px;
@@ -109,8 +95,8 @@ ul {
   text-decoration: none;
   font-style: normal;
   font-size: var(--brand-font-size);
-  font-weight: var(--font-weight-500);
-  line-height: var(--line-height-1-17);
+  font-weight: 500;
+  line-height: 1.17;
   color: var(--other-color);
   margin-left: 50px;
   padding: 32px 0;
@@ -136,9 +122,9 @@ ul {
 
 .logo-footer {
   font-family: var(--logo-font-family);
-  font-weight: var(--font-weight-700);
-  font-size: var(--font-size-26);
-  line-height: var(--line-height-1-17);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
   color: var(--brand-background-color);
   text-decoration: none;
 }
@@ -152,7 +138,7 @@ ul {
 .address-map {
   font-style: normal;
   font-size: var(--brand-font-size);
-  line-height: var(--line-height-1-71);
+  line-height: 1.71;
   color: var(--brand-background-color);
   text-decoration: none;
 }
@@ -160,7 +146,7 @@ ul {
 .footer-link {
   font-style: normal;
   font-size: var(--brand-font-size);
-  line-height: var(--line-height-1-71);
+  line-height: 1.71;
   color: var(--footer-link);
   text-decoration: none;
 }
@@ -178,9 +164,9 @@ ul {
 }
 
 .site-title {
-  font-weight: var(--font-weight-900);
-  font-size: var(--font-size-44);
-  line-height: var(--line-height-1-36);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-transform: uppercase;
   color: var(--brand-background-color);
   margin-bottom: 30px;
@@ -188,9 +174,9 @@ ul {
 
 .site-title-button {
   cursor: pointer;
-  font-weight: var(--font-weight-700);
-  font-size: var(--font-size-16);
-  line-height: var(--line-height-1-88);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
   background-color: var(--logo-button-color);
   color: var(--brand-background-color);
   padding: 10px 32px;
@@ -206,21 +192,21 @@ ul {
   margin-right: 30px;
 }
 .specifics-item {
-  font-weight: var(--font-weight-700);
+  font-weight: 700;
   font-size: var(--brand-font-size);
-  line-height: var(--line-height-1-17);
+  line-height: 1.17;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .specifics-text {
-  line-height: var(--line-height-1-71);
+  line-height: 1.71;
   color: var(--other-color);
 }
 
 .about-item {
-  font-weight: var(--font-weight-700);
-  font-size: var(--font-size-36);
-  line-height: var(--line-height-1-17);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -240,9 +226,9 @@ ul {
   margin: 0 -200px;
 }
 .team-title {
-  font-weight: var(--font-weight-700);
-  font-size: var(--font-size-36);
-  line-height: var(--line-height-1-17);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -262,15 +248,15 @@ ul {
 }
 
 .team-name {
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-16);
-  line-height: var(--line-height-1-17);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-position {
-  font-size: var(--font-size-16);
-  line-height: var(--line-height-1-17);
+  font-size: 16px;
+  line-height: 1.17;
   color: var(--other-color);
 }
 
@@ -295,9 +281,9 @@ ul {
   border: none;
   cursor: pointer;
   font-family: var(--brand-font-family);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-16);
-  line-height: var(-line-height-1-63);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
   padding: 6px 22px 6px 22px;
 
   border-radius: 4px;
@@ -323,12 +309,12 @@ ul {
 }
 
 .filter-portfolio-title {
-  font-weight: var(--font-weight-700);
-  font-size: var(--font-size-18);
-  line-height: var(--line-height-2);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 .filter-portfolio-type {
-  font-size: var(--font-size-16);
-  line-height: var(-line-height-1-88);
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--other-color);
 }
