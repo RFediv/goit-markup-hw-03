@@ -50,8 +50,8 @@
       </div>
     </header>
     <main>
-      <div class="container main-container">
-        <section class="section hero-section">
+      <section class="section hero-section">
+        <div class="container main-container">
           <h1 class="site-title">
             Эффективные решения<br />
             для вашего бизнеса
@@ -59,8 +59,10 @@
           <button class="site-title-button" type="button">
             Заказать услугу
           </button>
-        </section>
-        <section class="section">
+        </div>
+      </section>
+      <section class="section">
+        <div class="container specifics-container">
           <!-- <h2>особенности</h2> -->
           <ul class="specifics">
             <li class="link specifics-box">
@@ -124,14 +126,15 @@
               </li>
             </ul>
           </div>
-        </section>
-        <section class="section team-section">
+        </div>
+      </section>
+      <section class="section team-section">
+        <div class="container team-container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
             <li class="link team-person">
               <div>
                 <img
-                  class="image"
                   src="./images/desktop/team-1.jpg"
                   alt="фото Игорь"
                   width="270"
@@ -144,7 +147,6 @@
             <li class="link team-person">
               <div>
                 <img
-                  class="image"
                   src="./images/desktop/team-2.jpg"
                   alt="фото Ольга"
                   width="270"
@@ -157,7 +159,6 @@
             <li class="link team-person">
               <div>
                 <img
-                  class="image"
                   src="./images/desktop/team-3.jpg"
                   alt="фото Николай"
                   width="270"
@@ -170,7 +171,6 @@
             <li class="link team-person">
               <div>
                 <img
-                  class="image"
                   src="./images/desktop/team-4.jpg"
                   alt="фото Михаил"
                   width="270"
@@ -181,37 +181,35 @@
               </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container footer-container">
-        <section class="footer-section">
-          <a class="logo-footer" lang="en" href="./index.html"
-            ><span class="logo-footer-web">Web</span>Studio</a
-          >
-          <address>
-            <ul class="address-footer">
-              <li class="link">
-                <a
-                  class="address-map"
-                  href="https://goo.gl/maps/iM7867LzkU4xXhGe8"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </li>
-              <li class="link">
-                <a class="footer-link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
-              </li>
-              <li class="link">
-                <a class="footer-link" href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </section>
+        <a class="logo-footer" lang="en" href="./index.html"
+          ><span class="logo-footer-web">Web</span>Studio</a
+        >
+        <address>
+          <ul class="address-footer">
+            <li class="link">
+              <a
+                class="address-map"
+                href="https://goo.gl/maps/iM7867LzkU4xXhGe8"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="link">
+              <a class="footer-link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="link">
+              <a class="footer-link" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
