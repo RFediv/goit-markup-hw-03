@@ -64,6 +64,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--black-color);
   text-decoration: none;
   margin-right: 93px;
@@ -84,6 +85,7 @@ body {
   font-size: var(--brand-font-size);
   font-weight: 500;
   line-height: 1.17;
+  letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
   padding: 32px 0;
@@ -104,6 +106,7 @@ body {
   font-size: var(--brand-font-size);
   font-weight: 500;
   line-height: 1.17;
+  letter-spacing: 0.02em;
   color: var(--other-color);
   margin-left: 50px;
   padding: 32px 0;
@@ -133,6 +136,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand-background-color);
   margin-bottom: 30px;
@@ -163,11 +167,13 @@ body {
   font-weight: 700;
   font-size: var(--brand-font-size);
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .specifics-text {
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--other-color);
 }
 
@@ -175,6 +181,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -196,6 +203,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+
   text-align: center;
   margin-bottom: 50px;
 }
@@ -216,11 +225,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+
   color: var(--other-color);
 }
 
@@ -245,6 +257,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
   padding: 6px 22px 6px 22px;
 
   border-radius: 4px;
@@ -273,10 +286,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .filter-portfolio-type {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--other-color);
 }
 
@@ -291,6 +306,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--brand-background-color);
   text-decoration: none;
 }
@@ -304,6 +320,7 @@ body {
   font-style: normal;
   font-size: var(--brand-font-size);
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--brand-background-color);
   text-decoration: none;
 }
@@ -312,6 +329,7 @@ body {
   font-style: normal;
   font-size: var(--brand-font-size);
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--footer-link);
   text-decoration: none;
 }
