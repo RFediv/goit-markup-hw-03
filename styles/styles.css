@@ -120,7 +120,6 @@ body {
 .site-address-link::before {
   color: var(--logo-button-color);
 }
-/* Header-portfolio */
 .line-header {
   border-bottom: 1px solid var(--header-line);
 }
